@@ -1,0 +1,142 @@
+---
+title: Quickstart Guide
+description: Set up your Mar Key account and create your first documentation space in just a few minutes.
+---
+
+## Prerequisites
+
+Before you begin, ensure you have:
+
+- A valid email address for account registration
+- Access to your email inbox to verify your account
+- A modern web browser like Chrome, Firefox, or Safari
+
+<Callout kind="info">
+
+Mar Key works best with JavaScript enabled. Disable any ad blockers that might interfere with the signup process.
+
+</Callout>
+
+## Sign Up for Your Mar Key Account
+
+Follow these steps to create your account quickly.
+
+<Steps>
+  <Step title="Visit the Signup Page" icon="globe">
+    Navigate to `https://app.markey.com/signup` in your browser.
+  </Step>
+  <Step title="Enter Your Details" icon="user-plus">
+    Provide your email address, create a strong password, and complete the CAPTCHA if prompted.
+  </Step>
+  <Step title="Verify Your Email" icon="mail">
+    Check your inbox for a verification email from Mar Key and click the confirmation link.
+  </Step>
+  <Step title="Complete Onboarding" icon="check-circle">
+    Log in and select your workspace preferences during the short onboarding quiz.
+  </Step>
+</Steps>
+
+## Create Your First Documentation Space
+
+Once logged in, set up a dedicated space for your project docs.
+
+<Steps>
+  <Step title="Access Dashboard" icon="layout">
+    From the main dashboard, click the `+ New Space` button in the top right.
+  </Step>
+  <Step title="Configure Space" icon="settings">
+    Enter a name like `My Project Docs`, select visibility (`Public` or `Private`), and choose a template if desired.
+  </Step>
+  <Step title="Save and Enter" icon="arrow-right">
+    Click `Create Space`. You'll land in the editor interface ready to add content.
+  </Step>
+</Steps>
+
+## Add Initial Content to Your Space
+
+Populate your space with your first page. Use Markdown for rich formatting or import from other sources.
+
+<Tabs>
+  <Tab title="Markdown Editor" icon="edit-3">
+
+    Create a new page and use MDX syntax for components.
+
+````mdx
+---
+title: Welcome
+description: Your first page.
+---
+
+## Hello World
+
+Welcome to Mar Key!
+````
+
+  </Tab>
+  <Tab title="Import from GitHub" icon="github">
+
+    Connect your repo for seamless sync.
+
+    1. Go to `Space Settings > Integrations`.
+    2. Authorize GitHub and select your repo.
+    3. Map branches to docs paths.
+
+  </Tab>
+  <Tab title="AI Assistant" icon="zap">
+
+    Generate content instantly.
+
+````javascript
+// Use the AI prompt in the editor sidebar
+prompt: "Write an introduction for a SaaS product"
+````
+
+  </Tab>
+</Tabs>
+
+<Callout kind="tip">
+
+Save frequently with `Cmd/Ctrl + S`. Preview changes in real-time using the split view toggle.
+
+</Callout>
+
+## Basic Interface Tour
+
+Explore the core UI elements to navigate efficiently.
+
+<Columns cols={3}>
+  <Card title="Sidebar Navigation" icon="menu" href="#sidebar">
+    Access spaces, pages, settings, and search. Drag to reorder pages.
+  </Card>
+  <Card title="Editor Toolbar" icon="edit-3" href="#editor">
+    Format text, insert images, embeds, and components like `<Callout>`.
+  </Card>
+  <Card title="Preview Panel" icon="eye" href="#preview">
+    Live preview with device emulation for mobile/desktop views.
+  </Card>
+</Columns>
+
+## Next Steps
+
+You've set up Mar Key successfully. Dive deeper with these resources.
+
+<Columns cols={2}>
+  <Card title="Authentication" icon="shield" href="/authentication">
+    Secure your spaces with API keys and webhooks.
+  </Card>
+  <Card title="Customization" icon="palette" href="/configuration">
+    Themes, custom domains, and advanced layouts.
+  </Card>
+  <Card title="Collaboration" icon="users" href="/introduction#collaboration">
+    Invite teams and manage permissions.
+  </Card>
+  <Card title="Changelog" icon="git-branch" href="/changelog">
+    Stay updated with the latest features.
+  </Card>
+</Columns>
+
+<Callout kind="success">
+
+Congratulations! Your first documentation space is live. Share the URL with your team and start collaborating.
+
+</Callout>
